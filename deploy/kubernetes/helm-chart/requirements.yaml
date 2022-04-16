@@ -1,5 +1,5 @@
 dependencies:
-  - name: nginx-ingress
-    condition: nginx-ingress.enabled
-    version: 0.4.2
-    repository: https://helm.nginx.com/stable
+  - name: ingress-nginx
+    condition: ingress-nginx.enabled
+    version: 4.0.19
+    repository: https://kubernetes.github.io/ingress-nginx

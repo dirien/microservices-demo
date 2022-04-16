@@ -254,5 +254,5 @@ zipkinmysql:
             memory: 768Mi
             cpu: 1
 
-nginx-ingress:
+ingress-nginx:
     enabled: false
