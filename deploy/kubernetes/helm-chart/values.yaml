@@ -253,3 +253,6 @@ zipkinmysql:
         limits:
             memory: 768Mi
             cpu: 1
+
+nginx-ingress:
+    enabled: false
